@@ -108,7 +108,7 @@ a {
   }
 
   .main-section,
-    .about-main-section {
+  .about-main-section {
     background: url(../images/bg-desktop.png) no-repeat;
     min-height: 70vh;
   }
@@ -324,7 +324,7 @@ a {
   .expand-button {
     display: none;
   }
-      
+
   .partners-section {
     width: 100%;
     background: var(--color-1);
