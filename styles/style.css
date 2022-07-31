@@ -57,19 +57,19 @@ a {
     width: 100%;
     background-color: var(--color-1);
     padding: 0.5em;
-    }
+  }
 
   .desktop-only {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    }
+  }
 
   .desktop-only > a {
     color: var(--color-5);
     margin-right: 1em;
-    }
+  }
 
   .desktop-nav {
     display: flex;
@@ -80,55 +80,55 @@ a {
     position: relative;
     width: 100%;
     z-index: 99;
-    }
+  }
 
   .desktop-nav ul {
     display: flex;
     justify-content: flex-end;
     gap: 2em;
-    }
+  }
 
   .active-link {
     color: var(--color-2);
-    }
+  }
 
   .active-border {
     border: 2px solid var(--color-2);
     color: var(--color-2);
     padding: 0.5em;
-    }
+  }
 
   .mobile-container {
     display: none;
-    }
+  }
 
   main {
     background: var(--color-4);
     width: 100%;
-    }
+  }
 
   .main-section,
     .about-main-section {
     background: url(../images/bg-desktop.png) no-repeat;
     min-height: 70vh;
-    }
+  }
 
   .about-main-section {
     background-position: left;
-    }
+  }
 
   .main-container {
     max-width: 80%;
     margin: 0 auto;
     padding: 4em 0;
-    }
+  }
 
   .heading-text span {
     font-family: 'Poppins', sans-serif;
     color: var(--color-2);
     font-size: 2em;
     font-weight: 600;
-    }
+  }
 
   .about-heading h1 {
     text-align: center;
@@ -136,7 +136,7 @@ a {
     font-weight: 700;
     color: var(--color-2);
     margin-bottom: 1em;
-    }
+  }
 
   .heading-text h1 {
     font-family: 'Poppins', sans-serif;
@@ -146,14 +146,14 @@ a {
     background-image: url(../images/pet.jpg);
     background-size: 800px;
     -webkit-background-clip: text;
-    }
+  }
 
   .heading-paragraph {
     width: 60%;
     padding: 1em;
     margin: 1em 0;
     font-weight: 500;
-    }
+  }
 
   .about-heading-paragraph {
     width: 70%;
@@ -162,7 +162,7 @@ a {
     border: 1px solid var(--color-3);
     background: var(--color-5);
     text-align: center;
-    }
+  }
 
   .heading-date {
     font-family: 'cocogoose', sans-serif;
@@ -170,30 +170,30 @@ a {
     color: rgb(82, 80, 80);
     margin-bottom: 3em;
     margin-top: 2em;
-    }
+  }
 
   .about-heading-date {
     width: 80%;
     margin: 1em auto;
     text-align: center;
-    }
+  }
 
   .about-heading-date a {
     font-weight: 500;
     text-decoration: underline;
-    }
+  }
 
   .program-section {
     background: url(../images/bg-main.png) repeat;
     background-color: var(--color-1);
     color: var(--color-4);
-    }
+  }
 
   .program-container {
     max-width: 80%;
     margin: 0 auto;
     padding: 3em 0;
-    }
+  }
 
   .program-container h2 {
     text-align: center;
@@ -201,14 +201,14 @@ a {
     font-size: 28px;
     font-weight: 500;
     padding-bottom: 0.5em;
-    }
+  }
 
   .program-cards {
     display: flex;
     gap: 0.5em;
     margin-top: 2em;
     margin-bottom: 3em;
-    }
+  }
 
   .program-cards .card {
     background: rgba(255, 255, 255, 0.1);
@@ -218,15 +218,15 @@ a {
     padding: 0.5em;
     gap: 0.5em;
     font-family: 'Poppins', sans-serif;
-    }
+  }
 
   .program-cards .card:hover {
     border: 1px solid #fff;
-    }
+  }
 
   .program-cards .card h3 {
     color: var(--color-2);
-    }
+  }
 
   .program-btn {
     text-transform: uppercase;
@@ -235,22 +235,22 @@ a {
     margin-bottom: 2em;
     text-decoration: underline;
     cursor: pointer;
-    }
+  }
 
   .professionals-section {
     width: 100%;
-    }
+  }
 
   .abouts-logo-section {
     background: var(--color-5);
     border-bottom: 2px solid var(--color-3);
-    }
+  }
 
   .professionals-container {
     max-width: 80%;
     margin: 0 auto;
     padding: 3em 0;
-    }
+  }
 
   .professionals-container h2 {
     text-align: center;
@@ -258,14 +258,14 @@ a {
     font-size: 28px;
     font-weight: 500;
     padding-bottom: 0.5em;
-    }
+  }
 
   .logo-text-p {
     text-align: center;
     max-width: 80%;
     margin: 1em auto;
     font-size: 14px;
-    }
+  }
 
   .logo-about-div {
     max-width: 60%;
@@ -273,7 +273,7 @@ a {
     text-align: center;
     border: 1px solid var(--color-3);
     padding: 3em;
-    }
+  }
 
   .professional-grid {
     display: grid;
@@ -281,18 +281,18 @@ a {
     grid-column-gap: 0.5em;
     grid-row-gap: 2em;
     margin: 3em 0;
-    }
+  }
 
   .pro-grid-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    }
+  }
 
   .pro-grid-images {
     position: relative;
     top: 0;
     left: 0;
-    }
+  }
 
   .trans-grid {
     position: relative;
@@ -300,7 +300,7 @@ a {
     top: 0;
     width: 40%;
     z-index: 1;
-    }
+  }
 
   .pro-image {
     position: absolute;
@@ -308,34 +308,34 @@ a {
     top: 10px;
     width: 60%;
     z-index: 2;
-    }
+  }
 
   .pro-text h4 {
     color: var(--color-2);
     font-style: italic;
     font-weight: 400;
     padding: 1em 0;
-    }
+  }
 
   .pro-text p {
     font-size: 14px;
-    }
+  }
 
   .expand-button {
     display: none;
-    }
+  }
       
   .partners-section {
     width: 100%;
     background: var(--color-1);
     color: var(--color-3);
-    }
+  }
 
   .partners-container {
     max-width: 80%;
     margin: 0 auto;
     padding: 3em 0;
-    }
+  }
 
   .partners-container h2 {
     text-align: center;
@@ -343,7 +343,7 @@ a {
     font-size: 28px;
     font-weight: 500;
     padding-bottom: 0.5em;
-    }
+  }
 
   .partners {
     display: grid;
@@ -351,31 +351,31 @@ a {
     grid-gap: 1em;
     align-items: center;
     margin: 1em 0;
-    }
+  }
 
   .partners .partner-img img {
     max-width: 100%;
-    }
+  }
 
   .past-events-section {
     background: var(--color-5);
-    }
+  }
 
   .past-events-container {
     width: 80%;
     margin: 2em auto;
     display: flex;
     justify-content: space-around;
-    }
+  }
 
   .event-div {
     cursor: pointer;
-    }
+  }
 
   footer {
     width: 100%;
     background: var(--color-4);
-    }
+  }
 
   .footer-container {
     max-width: 75%;
@@ -385,14 +385,14 @@ a {
     align-items: center;
     gap: 1em;
     justify-content: space-around;
-    }
+  }
 
   .footer-container h5 {
     margin-bottom: 1em;
-    }
+  }
 
   #footer {
     background: var(--color-1);
     color: var(--color-5);
-    }
+  }
 }
