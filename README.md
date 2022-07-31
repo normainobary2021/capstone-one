@@ -2,7 +2,10 @@
 
 This capstone project is built based on an online website design for a conference provided by Microverse for personalization.
 
-![screenshot](./images/my_screenshot.png)
+![image](https://user-images.githubusercontent.com/87012757/182009899-e3202c4b-843b-4ea2-a561-ab1a3ccbe879.png)
+![image](https://user-images.githubusercontent.com/87012757/182009919-9173a6ca-e7c3-4cda-b207-5cf206c9e633.png)
+![image](https://user-images.githubusercontent.com/87012757/182009927-277c51bc-629d-4b87-9baf-9767142cc0a1.png)
+![image](https://user-images.githubusercontent.com/87012757/182009935-0ce74f88-3408-4cb1-9c2e-51f402f7ac7e.png)
 
  ## Learning objectives
 
@@ -25,7 +28,7 @@ This capstone project is built based on an online website design for a conferenc
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://normainobary2021.github.io/capstone-one/)
 
 ## Video Presentation
 
