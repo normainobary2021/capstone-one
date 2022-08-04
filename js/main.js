@@ -22,8 +22,8 @@ if (closeIcon) {
 
 seeMoreBtn.addEventListener('click', () => {
   const gridItems = [...document.querySelectorAll('.professional-grid .pro-grid-item')];
-  
-  for (let i = currentItem; i < currentItem + 2; i=i+1) {
+
+  for (let i = currentItem; i < currentItem + 2; i += 1) {
     gridItems[i].style.display = 'grid';
   }
 
@@ -44,8 +44,8 @@ window.onscroll = function () {
   else {
     stickyElement.style.position = 'relative';
     stickyElement.style.top = 'initial';
-  };
-}
+  }
+};
 
 const speakers = [
   {
@@ -85,11 +85,11 @@ const speakers = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates ipsum corporis nam magnam, quia nisi molestiae temporibus reiciendis officiis?',
   },
 ];
-  
+
 const createSpeakers = () => {
   let eventSpeakers = '';
   speakers.forEach((eventSpeaker) => {
-  eventSpeakers += `<div class="pro-grid-item"><div class="pro-grid-images">
+    eventSpeakers += `<div class="pro-grid-item"><div class="pro-grid-images">
     <img class="trans-grid" src="./images/bg-transparent.jpeg" alt="Transparent">
     <img class="pro-image" src="${eventSpeaker.photo}" alt="${eventSpeaker.name} profile">
       </div>
