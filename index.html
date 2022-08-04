@@ -20,32 +20,32 @@
             <a href="#">English</a>
             <a href="#">My Page</a>
             <a href="#">Logout</a>
-          </div>
+        </div>
     </div>
   
     <header>
         <div class="mobile-container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" aria-label="Close">
-                        <i class="fa-solid fa-xmark"></i>
-                        </a>
-                    </li>
-                    <li>
-                    <a href="./about.html" class="active-link">About</a>
-                    </li>
-                    <li><a href="#" >Program</a></li>
-                    <li ><a href="#" >Join</a></li>
-                    <li ><a href="#" >Sponsor</a></li>
-                    <li ><a href="#" >News</a></li>
-                    <li >
-                    <a href="#" >Conference</a>
-                    </li>
-                </ul>
-            </nav>
-            <a  aria-label="Menu"><i class="fa-solid fa-bars"></i></a>
+            <a class="hamburger" aria-label="Menu"><i id="hamburger" class="fa-solid fa-bars"></i></a>
         </div>
+        <nav id="mobile-menu">
+            <ul>
+                <li>
+                    <a href="#" aria-label="Close">
+                    <i id="closeX" class="fa-solid fa-xmark"></i>
+                    </a>
+                </li>
+                <li>
+                <a href="./about.html" class="active-link">About</a>
+                </li>
+                <li><a href="#" >Program</a></li>
+                <li ><a href="#" >Join</a></li>
+                <li ><a href="#" >Sponsor</a></li>
+                <li ><a href="#" >News</a></li>
+                <li >
+                <a href="#" >Conference</a>
+                </li>
+            </ul>
+        </nav>
         <div class="desktop-nav">
             <a class="logo" href="./">
                 <img src="./images/logo.png" alt="Innovet logo">
@@ -73,11 +73,11 @@
                     <h1>THE ANNUAL <br>INNOVET (HACK FOR PETS) HACKATHON 2022.</h1>
                 </div>
     
-                <div  class="heading-paragraph">
+                <div class="heading-paragraph">
                     <p >Come hack your way to eradicate pet health challenges, mingle with like-minded persons while you're at it. It's going to be life-changing.</p>
                 </div>
     
-                <div  class="heading-date">
+                <div class="heading-date">
                     <h2>2022-11-25 (Fri) ~ 27 (Sun)</h2>
                     <span>@ The National Museum, Plot 5 Old Kira Road Kitante Hill, Kampala - Uganda</span>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="red-line">
                 </div>
                 <div class="program-cards">
-                    <div  class="card">
+                    <div class="card">
                         <div >
                             <img src="./images/1.png" alt="Lecture">
                         </div>
@@ -99,7 +99,7 @@
                             Listen to speakers from various experiences speak about animal health.
                         </p>
                     </div>
-                    <div  class="card">
+                    <div class="card">
                         <div >
                             <img src="./images/2.png" alt="Exhibition">
                         </div>
@@ -108,7 +108,7 @@
                             Listen to speakers from various experiences speak about animal health.
                         </p>
                     </div>                    
-                    <div  class="card">
+                    <div class="card">
                         <div >
                             <img src="./images/3.png" alt="Forum">
                         </div>
@@ -117,7 +117,7 @@
                             Listen to speakers from various experiences speak about animal health.
                         </p>
                     </div>                   
-                     <div  class="card">
+                     <div class="card">
                         <div >
                             <img src="./images/4.png" alt="Workshop">
                         </div>
@@ -126,7 +126,7 @@
                             Listen to speakers from various experiences speak about animal health.
                         </p>
                     </div>                    
-                    <div  class="card">
+                    <div class="card">
                         <div >
                             <img src="./images/5.png" alt="Ignite">
                         </div>
@@ -136,11 +136,12 @@
                         </p>
                     </div>
                 </div>
-                <p class="program-btn">See the whole program</p>
+                <p class="program-btn none">See the whole program</p>
+                <p class="join">Join Innovet Hackathon 2022</p>
             </div>
         </section>
 
-        <section  class="professionals-section">
+        <section class="professionals-section">
             <div class="professionals-container">
                 <h2>Featured Professionals</h2>
                 <div class="red-line">
@@ -148,7 +149,7 @@
                 <div id="speakerDiv" class="professional-grid">
                 </div>
                 <div class="expand-button">
-                    <button type="submit">See More <i ></i></button>
+                    <a id="see-more" href="#see-more">See More &nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                 </div>
             </div>
         </section>
