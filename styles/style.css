@@ -422,7 +422,6 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-
   .join,
   .mobile-container {
     display: none;
