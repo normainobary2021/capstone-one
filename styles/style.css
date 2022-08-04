@@ -53,7 +53,7 @@ main {
   margin-top: -5em;
 }
 
-.main-section, 
+.main-section,
 .about-main-section {
   width: 100%;
   background: url(../images/bg-mobile.png) no-repeat;
@@ -172,6 +172,23 @@ main {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.pro-text h3 {
+  font-size: 16px;
+  padding: 0.5em 0 0;
+}
+
+.pro-text h4 {
+  font-size: 15px;
+  padding: 0.5em 0;
+  font-style: italic;
+  color: var(--color-2);
+}
+
+.pro-text p {
+  font-size: 14px;
+  padding-top: 0.5em;
+}
+
 .program-cards .card > h3,
 .program-cards .card > p {
   font-size: 15px;
@@ -253,23 +270,6 @@ main {
   top: 10px;
   width: 60%;
   z-index: 2;
-}
-
-.pro-text h3 {
-  font-size: 16px;
-  padding: 0.5em 0 0;
-}
-
-.pro-text h4 {
-  font-size: 15px;
-  padding: 0.5em 0;
-  font-style: italic;
-  color: var(--color-2);
-}
-
-.pro-text p {
-  font-size: 14px;
-  padding-top: 0.5em;
 }
 
 .logo-text-p {
