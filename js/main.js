@@ -56,7 +56,7 @@ const speakers = [
   {
     name: 'Kilnam Chon',
     photo: './images/p2.jpg',
-    role: '',
+    role: 'Head of Operations, MTN Corporation Uganda.',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates ipsum corporis nam magnam, quia nisi molestiae temporibus reiciendis officiis?',
   },
   {
