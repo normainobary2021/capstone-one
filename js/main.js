@@ -40,8 +40,7 @@ window.onscroll = function () {
   if (window.pageYOffset > currStickyPos) {
     stickyElement.style.position = 'fixed';
     stickyElement.style.top = '0px';
-  } 
-  else {
+  } else {
     stickyElement.style.position = 'relative';
     stickyElement.style.top = 'initial';
   }
