@@ -36,7 +36,7 @@ Below are some screenshots of the project.
 
 ## Video Presentation
 
-
+[Video Presentation Link](https://www.loom.com/share/a5fd639970ec41b2b8351b64aefb5e37)
 
 ## Getting Started
 
