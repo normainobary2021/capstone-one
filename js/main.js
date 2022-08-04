@@ -1,19 +1,50 @@
-stickyElement = document.querySelector(".desktop-nav");
+let stickyElement = document.querySelector('.desktop-nav');
 
-speakerContainer = document.getElementById("speakerDiv");
+let speakerContainer = document.getElementById('speakerDiv');
 
-currStickyPos = stickyElement.getBoundingClientRect().top + window.pageYOffset;
-window.onscroll = function() {
-     
-    if(window.pageYOffset > currStickyPos) {
-        stickyElement.style.position = "fixed";
-        stickyElement.style.top = "0px";
-    } else {
-        stickyElement.style.position = "relative";
-        stickyElement.style.top = "initial";
-    }
+let seeMoreBtn = document.querySelector('#see-more');
+let expandButton = document.querySelector('.expand-button');
+let currentItem = 2;
+
+let hamburgerIcon = document.getElementById('hamburger');
+let closeIcon = document.getElementById('closeX');
+let mobileMenu = document.getElementById('mobile-menu');
+
+hamburgerIcon.addEventListener('click', () => {
+  mobileMenu.style.display = 'block';
+});
+
+if(closeIcon) {
+  closeIcon.addEventListener('click', () => {
+    mobileMenu.style.display = 'none';
+  });
 }
 
+seeMoreBtn.addEventListener('click', () => {
+  let gridItems = [...document.querySelectorAll('.professional-grid .pro-grid-item')];
+  
+  for(let i = currentItem; i < currentItem + 2; i++) {
+    gridItems[i].style.display = 'grid';
+  }
+
+  currentItem += 2;
+
+  if(currentItem >= gridItems.length) {
+    expandButton.style.display = 'none';
+  }
+});
+
+let currStickyPos = stickyElement.getBoundingClientRect().top + window.pageYOffset;
+
+window.onscroll = function() {
+    if(window.pageYOffset > currStickyPos) {
+        stickyElement.style.position = 'fixed';
+        stickyElement.style.top = '0px';
+    } else {
+        stickyElement.style.position = 'relative';
+        stickyElement.style.top = 'initial';
+    }
+}
 
 const speakers = [
     {
@@ -59,13 +90,13 @@ const speakers = [
     speakers.forEach((eventSpeaker) => {
     eventSpeakers += `<div class="pro-grid-item"><div class="pro-grid-images">
       <img class="trans-grid" src="./images/bg-transparent.jpeg" alt="Transparent">
-      <img id="" class="pro-image" src="${eventSpeaker.photo}" alt="${eventSpeaker.name} profile">
+      <img class="pro-image" src="${eventSpeaker.photo}" alt="${eventSpeaker.name} profile">
         </div>
         <div class="pro-text">
-            <h3 id="">${eventSpeaker.name}</h3>
-            <h4 id="">${eventSpeaker.role}</h4>
+            <h3>${eventSpeaker.name}</h3>
+            <h4>${eventSpeaker.role}</h4>
             <div class="gray-line"></div>
-            <p id="">${eventSpeaker.text}</p>
+            <p>${eventSpeaker.text}</p>
         </div></div>`;
     });
     speakerContainer.innerHTML = eventSpeakers;
