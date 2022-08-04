@@ -1,11 +1,15 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Capstone-Project: INNOVET (hack for pets)
 
 This capstone project is built based on an online website design for a conference provided by Microverse for personalization.
+Below are some screenshots of the project.
 
-![image](https://user-images.githubusercontent.com/87012757/182009899-e3202c4b-843b-4ea2-a561-ab1a3ccbe879.png)
-![image](https://user-images.githubusercontent.com/87012757/182009919-9173a6ca-e7c3-4cda-b207-5cf206c9e633.png)
-![image](https://user-images.githubusercontent.com/87012757/182009927-277c51bc-629d-4b87-9baf-9767142cc0a1.png)
-![image](https://user-images.githubusercontent.com/87012757/182009935-0ce74f88-3408-4cb1-9c2e-51f402f7ac7e.png)
+![image](./images/desktop1.png)
+![image](./images/desktop3.png)
+![image](./images/mobile1.png)
+![image](./images/mobile3.png)
+![image](./images/mobile7.png)
 
  ## Learning objectives
 
@@ -80,4 +84,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
